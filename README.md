@@ -1,1 +1,1 @@
-This is a raytracer build from scratch in Python.
+A raytracer based on Peter Shirley's 'Ray Tracing in One Weekend' book and re-implemented in Python.
