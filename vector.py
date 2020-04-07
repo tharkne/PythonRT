@@ -27,6 +27,9 @@ class vec3:
         # return vec3(self.x * scalar, self.y * scalar, self.z * scalar)
         return self.__mul__(scalar)
 
+    def __truediv__(self):
+        return self.___mul___(1/scalar)
+
     def __str__(self):
         # return "<" + self.x + "," + self.y + "," + self.z + ">";
         return "({},{},{})".format(self.x, self.y, self.z)
@@ -40,4 +43,6 @@ class vec3:
 
     def normalize(self):
         return self / mag(self)
+
+
     
