@@ -1,0 +1,1 @@
+This is a raytracer build from scratch in Python.
